@@ -1,0 +1,32 @@
+.item{
+    
+    padding: 20px;
+    margin: 10px;
+}
+.one{
+    background-color: red;
+    overflow: scroll;
+    transition: 500ms;
+}
+.one:hover{
+    background-color: aliceblue;
+    transition: 500ms;
+}
+.two{
+    background-color: blue;
+}
+.three{
+    background-color: green;
+}
+.four{
+    background-color: rgb(255, 94, 0);
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+    grid-auto-rows: 200px;
+}
+#file{
+    height: 150px;
+}
